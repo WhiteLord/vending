@@ -1,6 +1,6 @@
 # Vending Software
 
-![Screenshot] (https://github.com/WhiteLord/vending/blob/28b000955242c8ff301d955b4a6b8d4e85078643/demo-image.png)
+![Screenshot](https://github.com/WhiteLord/vending/blob/28b000955242c8ff301d955b4a6b8d4e85078643/demo-image.png)
 
 ## What does it do?
 
