@@ -1,5 +1,7 @@
 # Vending Software
 
+![Screenshot] (https://github.com/WhiteLord/vending/blob/28b000955242c8ff301d955b4a6b8d4e85078643/demo-image.png)
+
 ## What does it do?
 
 Vending machines are super popular in Japan. You can get basically everything off of them.
@@ -12,7 +14,7 @@ It also has a backend implementation and a tiny-winy database.
 
 ## How to run the application?
 ```bash
-   git clone <repository>
+   git clone https://github.com/WhiteLord/vending
    docker compose up
 ```
 All parts of the application are dockerized, so you should not worry about configuring different stuff. The application comes bundled with a sample dataset, so you don't have to wrorry about populating it.
