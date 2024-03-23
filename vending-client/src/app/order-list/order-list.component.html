@@ -1,0 +1,13 @@
+<clr-datagrid>
+    <clr-dg-column>{{ 'Identifier' }}</clr-dg-column>
+    <clr-dg-column>{{ 'Product Name' }}</clr-dg-column>
+    <clr-dg-column>{{ 'Price' }}</clr-dg-column>
+    <clr-dg-column>{{ 'Quantity' }}</clr-dg-column>
+
+    <clr-dg-row *ngFor="let vendingItem of vendingItems">
+      <clr-dg-cell>{{ vendingItem.identifier }}</clr-dg-cell>
+      <clr-dg-cell>{{ vendingItem.product.name }}</clr-dg-cell>
+      <clr-dg-cell>{{ vendingItem.price }}</clr-dg-cell>
+      <clr-dg-cell>{{ vendingItem.quantity }}</clr-dg-cell>
+    </clr-dg-row>
+  </clr-datagrid>

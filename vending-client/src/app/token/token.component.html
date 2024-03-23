@@ -1,0 +1,8 @@
+<div class="token"
+    [ngStyle]="getTokenStyle(tokenValue)"
+    (click)="onTokenSelected()">
+    <span class="tokenValue" 
+          [ngStyle]="getTokenValueStyle(tokenValue)">
+            {{ tokenValue }}
+    </span>
+</div>

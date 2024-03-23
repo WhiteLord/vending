@@ -1,0 +1,23 @@
+<div class="keyboard">
+    <div class="keys">
+      <button class="key" (click)="onKeyClick('A')">A</button>
+      <button class="key" (click)="onKeyClick('B')">B</button>
+      <button class="key" (click)="onKeyClick('C')">C</button>
+      <button class="key" (click)="onKeyClick('1')">1</button>
+      <button class="key" (click)="onKeyClick('2')">2</button>
+      <button class="key" (click)="onKeyClick('3')">3</button>
+      <button class="key" (click)="onKeyClick('4')">4</button>
+      <button class="key" (click)="onKeyClick('5')">5</button>
+      <button class="key" (click)="onKeyClick('6')">6</button>
+      <button class="key" (click)="onKeyClick('7')">7</button>
+      <button class="key" (click)="onKeyClick('8')">8</button>
+      <button class="key" (click)="onKeyClick('9')">9</button>
+      <button class="key invisible" (click)="onInvisibleKeyClick()"></button>
+      <button class="key" (click)="onKeyClick('0')">0</button>
+    </div>
+    <div class="actions">
+      <button class="btn btn-warning" (click)="onCorrectClick()">Correct</button>
+      <button class="btn btn-danger" (click)="onDeleteClick()">Delete</button>
+      <button class="btn btn-success" (click)="onEnterClick()">Enter</button>
+    </div>
+  </div>

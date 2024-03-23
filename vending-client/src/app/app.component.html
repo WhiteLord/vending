@@ -1,0 +1,15 @@
+<display>
+</display>
+<vending-keyboard>  
+</vending-keyboard>
+
+<div class="token-container">
+    <app-token *ngFor="let value of tokenValues" 
+                [tokenValue]="value">
+    </app-token>
+</div>
+
+<div class="items-wrapper">
+    <h1>Available products</h1>
+    <order-list></order-list>
+</div>
