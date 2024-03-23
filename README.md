@@ -19,7 +19,8 @@ It also has a backend implementation and a tiny-winy database.
 ```
 All parts of the application are dockerized, so you should not worry about configuring different stuff. The application comes bundled with a sample dataset, so you don't have to wrorry about populating it.
 
-<b>MAKE SURE TO ENABLE PORT 80 and 8080 AS THE APP MAPS THEM</b>
+- <b>MAKE SURE TO ENABLE `PORT 80` and `8080` AS THE APP MAPS THEM</b>
+- Open the browser console
 
 ---
 
