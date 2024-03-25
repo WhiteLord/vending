@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.Check;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
 
@@ -34,6 +35,8 @@ public class VendingItem {
     @JoinColumn(name = "product_id")
     private Product product;
 
+    @Positive
+    @Check(constraints = "quantity <= 10")
     private int quantity;
 
     // Price in stotinki
